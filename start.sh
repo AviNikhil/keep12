@@ -10,6 +10,6 @@ which curl &> /dev/null || echo "curl not installed"
 
 curl https://github.com/AviNikhil/keep12/blob/main/docker-compose.yml --output docker-compose.yml
 #curl https://raw.githubusercontent.com/keephq/keep/main/docker-compose.yml --output docker-compose.yml
-curl https://raw.githubusercontent.com/keephq/keep/main/docker-compose.common.yml --output docker-compose.common.yml
-
+#curl https://raw.githubusercontent.com/keephq/keep/main/docker-compose.common.yml --output docker-compose.common.yml
+https://github.com/AviNikhil/keep12/blob/main/docker-compose.common.yml  --output docker-compose.common.yml
 docker compose up -d
